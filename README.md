@@ -1,6 +1,7 @@
 # truckxassignment
 for this assignment I have used django rest framework for building API 
-which is MTV base framework 
+which is MTV base framework.
+Views contain API models contain structure of sqlite database and serializer contains serializers of for some data models
 I have just covered two admin functions which are displaying all alarms of dashcam, and all alarms of dashcam with filters.
    all data models created and their use:- 1)alarm_types (use to store all type of different type of alarm ) this helps in reducing data redundancy.
 2)alarmtable ( to save all alarm related details of dashcam)
